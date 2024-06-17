@@ -13,7 +13,7 @@ const { products } = await client.products.list();
         <p class="flex-1 text-zinc-600 text-base mb-10">
           Do conceito à realidade, soluções completas para uma aparência profissional e impactante ao seu negócio.
         </p>
-        <nuxt-link to="#section-products">
+        <nuxt-link to="/#section-products">
           <Button size="lg">
             Explore nossos produtos
           </Button>
