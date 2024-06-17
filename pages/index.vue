@@ -13,7 +13,7 @@ const { products } = await client.products.list();
         <p class="flex-1 text-zinc-600 text-base mb-10">
           Do conceito à realidade, soluções completas para uma aparência profissional e impactante ao seu negócio.
         </p>
-        <nuxt-link to="/colecoes">
+        <nuxt-link to="#section-products">
           <Button size="lg">
             Explore nossos produtos
           </Button>
@@ -26,7 +26,7 @@ const { products } = await client.products.list();
       </div>
     </div>
   </section>
-  <section class="container my-40">
+  <section id="#section-products" class="container my-40">
     <h2 class="font-extrabold mb-4 text-3xl">
       Sua Marca, Nossa Missão
     </h2>
