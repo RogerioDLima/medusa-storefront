@@ -8,7 +8,7 @@ const { collections } = await client.collections.list();
   <footer class="bg-zinc-50">
     <div class="container py-20 mt-20 grid grid-cols-[repeat(auto-fill,_minmax(280px,_1fr))] gap-4 gap-y-10">
       <div>
-        <img src="../public/logo.svg" height="20" class="h-[20px] w-auto pr-4" />
+        <img src="@/public/logo.svg" height="20" class="h-[20px] w-auto pr-4" />
       </div>
       <div class="text-sm space-y-4">
         <div class="font-medium">
