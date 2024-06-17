@@ -8,14 +8,14 @@ const { products } = await client.products.list();
     <div class="items-center container relative h-full grid grid-cols-2">
       <div class="py-20 flex-1 pr-10">
         <h1 class="text-6xl font-extrabold text-zinc-900 mb-4">
-          Bota na cabeça que estilo não é marra
+          Um design de qualidade que dará vida a sua marca 
         </h1>
         <p class="flex-1 text-zinc-600 text-base mb-10">
-          Usando a nova coleção da Umbrella você fica pronto para qualquer tempestade.
+          Do conceito à realidade, soluções completas para uma aparência profissional e impactante ao seu negócio.
         </p>
         <nuxt-link to="/colecoes">
           <Button size="lg">
-            Nova Coleção
+            Explore nossos produtos
           </Button>
         </nuxt-link>
       </div>
@@ -28,7 +28,7 @@ const { products } = await client.products.list();
   </section>
   <section class="container my-40">
     <h2 class="font-extrabold mb-4 text-3xl">
-      Só no precinho 🔥
+      Sua Marca, Nossa Missão
     </h2>
     <div class="grid grid-cols-[repeat(auto-fill,_minmax(280px,_1fr))] gap-4">
       <ProductCard v-for="product in products" 
