@@ -22,7 +22,7 @@ const { products } = await client.products.list();
     </div>
     <div class="absolute w-full h-full top-0 left-0 grid grid-cols-2 pointer-events-none">
       <div class="col-start-2 w-full h-full overflow-hidden">
-        <img src="/hero.png" class="w-full h-full object-center object-cover" />
+        <img src="@/public/hero.png" class="w-full h-full object-center object-cover" />
       </div>
     </div>
   </section>
