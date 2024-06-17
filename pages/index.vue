@@ -26,7 +26,7 @@ const { products } = await client.products.list();
       </div>
     </div>
   </section>
-  <section id="#section-products" class="container my-40">
+  <section id="section-products" class="container my-40">
     <h2 class="font-extrabold mb-4 text-3xl">
       Sua Marca, Nossa Missão
     </h2>
